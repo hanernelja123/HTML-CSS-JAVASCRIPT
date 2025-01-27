@@ -23,3 +23,15 @@ td,th{
     border: 1px solid black;
     padding: 15px;
 }
+tbody tr:nth-child(odd){
+    background-color: darkgreen;
+}
+tbody tr:nth-child(even){
+    background-color: coral;
+}
+div{
+    overflow: scroll;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
