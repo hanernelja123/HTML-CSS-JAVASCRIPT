@@ -1,0 +1,65 @@
+div#static {
+    position: static;
+    border: 3px solid blue;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+
+
+
+}
+div#relative {
+    position: relative;
+    border: 3px solid rebeccapurple;
+    width: 250px;
+    height: 250px;
+    left: 200px;
+    top: 20px;
+    
+}
+div#fixed {
+    position: fixed;
+    border: 3px solid red;
+    width: 250px;
+    height: 250px ;
+    padding: 20px;
+    right: 200px;
+    top: 100px;
+}
+div#parent {
+    position: fixed;
+    border: 3px solid red;
+    width: 250px;
+    height: 250px ;
+
+}
+div#absolute {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    right: 30px;
+    top: 30px;
+    color: blue;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: blueviolet;
+
+}
+ 
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
