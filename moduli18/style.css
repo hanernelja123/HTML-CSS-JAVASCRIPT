@@ -1,4 +1,4 @@
-div#translate {
+/* div#translate {
     width: 200px;
     border: 200px;
     border-radius: 5px;
@@ -29,11 +29,11 @@ div#scale {
 
     /* transform: scale(1,2);
     transform: scale(2); */
-    transform: scale(3);
+    /* transform: scale(3); */
     
-}
+/* } */
 
-div#skewx {
+/* div#skewx {
     width: 200px;
     border: 200px;
     border-radius: 5px;
@@ -52,5 +52,63 @@ idv#rotatex {
     padding: 10px;
 
     transform: rotate(-90deg);
+} */
+ 
+div {
+    width: 200px;
+    height: 200px;
+    color: blue;
+    transition: background 3s, border-radius 5s;
+    /* transition-timing-function: linear; */
+    transition-tining-function:ease-in-out;
 }
-    
+div:hover{
+    background:red;
+    border-radius: 50%;
+
+}
+#figure_1 img {
+    transform: scale(1);
+    transition: .3s scale(1.3);
+}
+#figure_1:hover img {
+    transform: scale(1.3);
+}
+
+#figure_2 img {
+    margin: 0px;
+    transition: .3s scale(1.3);
+}
+#figure_2:hover img {
+    margin-left: 60px;
+}
+
+#figure_3 img {
+    filter: blur(3px);
+    transition: .3s ease-in-out;
+}
+#figure_3:hover img {
+    filter: blur(0);
+}
+
+#figure_3 img {
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+#figure_3:hover img {
+    filter: grayscale(0);
+}
+,loader img {
+    margin: 100px;
+}
+
+
+.loader img {
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+    animation: bounce 8s infinite alternate;
+}
+
