@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', sans-serif;
+
+}
+
+#section-1 {
+    background-color: blue;
+    height: 600px;
+}
+
+.container {
+   margin-left: auto;
+   margin-right: auto;
+   height: 100%;
+}
+
+header {
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul il {
+    display: inline-block;
+    padding: 10px 16px;
+
+}
+
+nav ul il a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li.active {
+    background-color: blueviolet;
+    border-radius: 5px;
+}
