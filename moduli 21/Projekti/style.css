@@ -1,43 +1,50 @@
-body {
-    margin: 0;
-    font-family: 'Times New Roman', sans-serif;
+
+
+
+
+body{
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#section-1{
+	background-color: #87509c;
+	height: 600px;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 1140px;*/
+	height: 100%;
 
 }
 
-#section-1 {
-    background-color: blue;
-    height: 600px;
-}
-
-.container {
-   margin-left: auto;
-   margin-right: auto;
-   height: 100%;
-}
-
-header {
+header{
     padding: 55px;
     display: flex;
     justify-content: space-around;
+
 }
 
-nav ul il {
+
+nav ul li {
     display: inline-block;
     padding: 10px 16px;
-
+    
 }
 
-nav ul il a {
-
+nav ul li a {
     text-decoration: none;
     color: white;
-
 }
 
 nav ul li.active {
-    background-color: blueviolet;
+    background-color: #643a79;
     border-radius: 5px;
 }
+
+
 
 .main-heading {
     margin-top: 148px;
@@ -53,18 +60,21 @@ nav ul li.active {
 
 .main-heading a {
     text-decoration: none;
-    background-color: brown;
+    background-color: #eb7d4b;
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 5px;
     padding: 25px 85px;
-    color: black;
+    color: white;
+
+
 }
 
+
 #section-2 {
-    background-color: aqua;
-    main-height:745px;
-    color: black;
+    background-color: #17c2a4;
+    min-height: 745px;
+    color: white;
 }
 
 .title-box {
@@ -87,61 +97,83 @@ nav ul li.active {
 .title-box .line {
     width: 87px;
     height: 4px;
-    background-color: black(0, 0, 0, 0.15);
-    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.15);
     margin-right: auto;
+    margin-left: auto;
 }
 
 .services-box {
     margin-top: 80px;
     display: flex;
-    margin-left: auto;
+    margin-right: auto;
     margin-left: auto;
     width: 90%;
     padding-bottom: 100px;
+
 }
 
-
-.services {
+.service {
     width: 24%;
-    margin-left: bold;
-    font-size: 24px;
-    font-weight: 100;
-    
-
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
+
+.service h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#section-3 {
+    background-color: #3c5499;
+    min-height: 820px;
+    color: white;
+}
+
+#contact-form {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 
 .form-row {
     display: flex;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"], input[type="email"] {
     width: 46%;
     height: 56px;
-
 }
 
 input[type="text"], input[type="email"], textarea {
-    color: black;
-    background-color:  white;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    background-color: #273a71;
     border: none;
     font-size: 18px;
     margin: 16px;
     border-radius: 5px;
-    padding-left: 28px;
+    padding-left: 26px;
 }
 
 textarea {
     height: 200px;
-    width: 100px;
-    padding-top 26px;
-
-
+    width: 100%;
+    padding-top: 24px;
 }
 
-
 input[type="submit"] {
-    background-color: darkseagreen;
+    background-color: #30bae7;
     border: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -152,40 +184,56 @@ input[type="submit"] {
 }
 
 .big-button {
-    padding: 26px 85px;
-    color: blue;
+    padding: 25px 85px;
+    color: white;
 }
+
 footer {
-    background-color: blueviolet;
+    background-color: #344b8e;
 }
 
 .footer-links {
-    max-height: 945px;
+    max-width: 945px;
     margin-left: auto;
     margin-right: auto;
 }
 
 footer ul {
-    margin: 0;
+    margin: 0px;
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
 }
 
-.footer-links ul il {
+.footer-links ul li {
     display: inline-block;
     padding: 10px 20px 10px 20px;
 }
 
-.footer-links ul li a{
+.footer-links ul li a {
     text-decoration: none;
     color: white;
     font-size: 24px;
 }
+ header img{
+        width: 117px;
+        height: 37px;
+ 
+    }
 
-header img {
-    width: 117px;
-    height:37px ;
+@media only screen and (max-width: 800px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        width: 100px;
+        text-align: center;
+    }
+
+     header  img {
+        margin-left: auto;
+        margin-right: auto;
+     }
 }
-
-
