@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .hero .cta-button:hover {
-  background-color:blue;
+  background-color: gray;
   color: black;
   font-size: 15px;
 }
@@ -77,7 +77,7 @@ nav ul li a:hover {
 }
 
 #services h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 50%;
 }
 
@@ -108,19 +108,19 @@ nav ul li a:hover {
 /* About Section */
 #about {
   padding: 60px 20px;
-  background-color: green;
+  background-color: black;
   text-align: right;
 }
 
 #about p {
   color: #333;
-  max-width: 800px;
+  max-width: 80px;
   margin: 20px auto;
 }
 
 /* Contact Section */
 #contact {
-  background-color: purple;
+  background-color: blue;
   padding: 60px 20px;
   text-align: left;
 }
