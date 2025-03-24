@@ -13,7 +13,7 @@ body {
 /* Header Styles */
 header {
   background-color: #333;
-  color: #fff;
+  color: #ffff;
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -46,16 +46,16 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
- background-image: url(5.jpg);
+background-image: url(38.jpg);
  background-size: cover;
   color: black;
   padding: 290px 20px;
   text-align: center;
+ text-size-adjust: 190px;
 }
 
 .hero .cta-button {
-  background-color: black;
-  color:black;
+  
   font-size: 50%;
   padding: 10px 20px;
   text-decoration: none;
@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 #section-2 {
-  background-color: #17c2a4;
+  background-color: gray;
   min-height: 745px;
   color: white;
 }
@@ -121,7 +121,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-  background-color: blue;
+
   padding: 60px 20px;
   text-align: left;
 }
@@ -146,8 +146,8 @@ nav ul li a:hover {
 }
 
 #contact form button {
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: aqua;
   padding: 12px 25px;
   border: none;
   cursor: pointer;
@@ -282,4 +282,15 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+p{
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.abouti{
+  text-decoration: none;
+  text-align: center;
+   font-style: italic;
 }
