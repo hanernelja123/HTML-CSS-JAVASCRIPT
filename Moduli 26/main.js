@@ -24,4 +24,4 @@ console.log(n);
 
 var o=100;
 o--;
-console.log(o);
+console.log(o);Moduli 26/main.js
