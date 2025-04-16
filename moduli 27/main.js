@@ -51,12 +51,37 @@ var car = {
 	color:"red", 
 	year:2020, 
 	kilometers:0,
-    startEngine: function() {
+    get getkilometers() {
+        return this.kilometers;
+    },
+
+    set setkilometers(km) {
+        this.kilometers = km;
+    }
+
+    // startEngine: function() {
     
-        alert("Start");
-        }
+    //     alert("Start");
+        
 
 };
+
+console.log(car.getkilometers);
+
+car.setkilometers = 100;
+
+console.log(car.getkilometers);
+
+
+
+
+
+
+
+
+
+
+
 
 car.startEngine();
 
@@ -74,3 +99,12 @@ var shkolla = {
 };
 
 alert(shkolla.viti_ndertimit);
+var compunter = new Object();
+compunter.name = "lenov" ;
+compunter.CPU = "Intel";
+compunter.RAM = "16GB";
+compunter.type = function(){
+    return this.name + " " + this.CPU + " " + this.RAM ;
+}
+
+alert(compunter.CPU);
