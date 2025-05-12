@@ -13,6 +13,18 @@ var text = document.getElementById('text_id');
 
 button.onclick = function(){
     text.innerHTML = input.value;
+
 }
 
 
+var input1_id = document.querySelector('#input1_id');
+var input2_id = document.querySelector('#input2_id');
+var btn2 = document.querySelector('#btn2_id');
+var answer = document.querySelector('#answer');
+
+btn2.addEventListener("click", function(){
+    text.innerHTML=parseInt(input)+(input2)
+}
+
+
+)
